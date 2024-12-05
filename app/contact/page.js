@@ -3,13 +3,15 @@ import Header from "../../components/Header"; // Import the header component
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen relative pt-[93px] bg-[#38373f]">
+    <main className="min-h-screen relative pt-[80px] bg-[#38373f]">
       <Header />
       <div className="container mx-auto">
         <div className="flex">
           <div className="w-1/2">
             <div className="p-10">
-              <h1 className="text-[64px] mb-4 text-white">Contact Us</h1>
+              <h1 className="text-[64px] leading-[1.1] mb-4 text-white">
+                Contact Us
+              </h1>
               <Image
                 src="/images/contact.jpg" // Replace with your image
                 alt="About Us"

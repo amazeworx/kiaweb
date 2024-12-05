@@ -1,15 +1,15 @@
 import Image from "next/image";
-import Header from "../../components/Header"; // Import the header component
+import Header from "../../../components/Header"; // Import the header component
 
 export default function AboutUsPage() {
   return (
-    <main className="min-h-screen relative pt-[93px] bg-[#f4f4f4]">
+    <main className="min-h-screen relative pt-[80px] bg-[#f4f4f4]">
       <Header />
       <div className="container mx-auto">
         <div className="flex">
           <div className="w-1/2">
             <div className="p-10">
-              <h1 className="text-[64px] mb-4">About Us</h1>
+              <h1 className="text-[64px] leading-[1.1] mb-4">About Us</h1>
               <div className="pt-32 prose prose-xl">
                 <p>
                   Established in 2018, PT Karunia Indo Alam is highly committed

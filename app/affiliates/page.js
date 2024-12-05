@@ -3,7 +3,7 @@ import Header from "../../components/Header"; // Import the header component
 
 export default function AffiliatesPage() {
   return (
-    <main className="min-h-screen relative pt-[93px] bg-[#38373f]">
+    <main className="min-h-screen relative pt-[80px] bg-[#38373f]">
       <Header />
       <div className="container mx-auto">
         <div className="flex">

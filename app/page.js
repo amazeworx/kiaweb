@@ -8,7 +8,7 @@ export default function Home() {
       <div className="absolute inset-0">
         <div className="container mx-auto h-full">
           <div className="h-full flex items-end">
-            <div className="w-1/2 px-4">
+            <div className="w-1/2 px-10">
               {" "}
               {/* Moved padding to the div */}
               <div className="pb-32">
@@ -18,7 +18,7 @@ export default function Home() {
                 </h1>
                 <div className="pt-8">
                   <a
-                    href="#"
+                    href="/contact"
                     className="btn btn-lg btn-outline text-white rounded-full uppercase px-12"
                   >
                     Get In Touch
