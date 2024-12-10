@@ -1,18 +1,21 @@
 import Image from "next/image";
-import Header from "../components/Header"; // Import the header component
+import Header from "@/components/Header";
+
+export const metadata = {
+  title: "KIA | PT Karunia Indo Alam",
+  description: "",
+};
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative">
-      <Header /> {/* Use the Header component */}
-      <div className="absolute inset-0">
+    <main className="min-h-screen relative z-0">
+      <Header backgroundColor="transparent" />
+      <div className="absolute inset-0 z-10">
         <div className="container mx-auto h-full">
           <div className="h-full flex items-end">
-            <div className="w-1/2 px-10">
-              {" "}
-              {/* Moved padding to the div */}
-              <div className="pb-32">
-                <h1 className="text-[42px] leading-[1.1] text-white">
+            <div className="lg:w-1/2 px-10">
+              <div className="pb-20 lg:pb-32">
+                <h1 className="text-5xl lg:text-[42px] leading-[1.1] text-white">
                   We provide our clients <br />
                   with the best of possibilities
                 </h1>
@@ -38,6 +41,7 @@ export default function Home() {
           className="w-full h-full object-cover"
         />
       </div>
+      <div className="absolute inset-0 -z-0 bg-black/30"></div>
     </main>
   );
 }

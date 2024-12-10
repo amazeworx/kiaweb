@@ -1,16 +1,23 @@
 import Image from "next/image";
 import Header from "../../../components/Header"; // Import the header component
 
+export const metadata = {
+  title: "About Us - KIA | PT Karunia Indo Alam",
+  description: "",
+};
+
 export default function AboutUsPage() {
   return (
-    <main className="min-h-screen relative pt-[80px] bg-[#f4f4f4]">
-      <Header />
+    <main className="min-h-screen relative pt-16 lg:pt-[80px] bg-[#f4f4f4]">
+      <Header backgroundColor="#f4f4f4" />
       <div className="container mx-auto">
-        <div className="flex">
-          <div className="w-1/2">
-            <div className="p-10">
-              <h1 className="text-[64px] leading-[1.1] mb-4">About Us</h1>
-              <div className="pt-32 prose prose-xl">
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full lg:w-1/2 order-2 lg:order-1">
+            <div className="py-6 px-4 lg:p-10">
+              <h1 className="text-4xl lg:text-[64px] leading-[1.1] mb-4">
+                About Us
+              </h1>
+              <div className="pt-2 lg:pt-32 prose prose-lg lg:prose-xl">
                 <p>
                   Established in 2018, PT Karunia Indo Alam is highly committed
                   to work professionally and to actively participate to provide
@@ -25,7 +32,7 @@ export default function AboutUsPage() {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2 order-1 lg:order-2">
             <Image
               src="/images/about-us.jpg" // Replace with your image
               alt="About Us"
