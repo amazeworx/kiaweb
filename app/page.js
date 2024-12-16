@@ -44,7 +44,7 @@ export default function Home() {
           className="w-full h-full object-cover lg:object-left-bottom"
         />
       </div>
-      <div className="absolute inset-0 -z-0 bg-black/30 lg:hidden"></div>
+      <div className="absolute inset-0 -z-0 bg-black/20 lg:hidden"></div>
     </main>
   );
 }
