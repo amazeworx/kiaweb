@@ -24,7 +24,16 @@ const menuItems = [
       },
     ],
   },
-  { title: "Affiliates", link: "/affiliates" },
+  {
+    title: "Affiliates",
+    link: "/affiliates",
+    submenu: [
+      {
+        title: "Logistics / Mining / Trading / Ports",
+        link: "/affiliates/logistics",
+      },
+    ],
+  },
   {
     title: "Upcoming Projects",
     link: "#",
@@ -55,8 +64,8 @@ const Header = ({ backgroundColor = "transparent" }) => {
       style={{ backgroundColor }}
     >
       <div className="bg-white">
-        <div className="container mx-auto">
-          <nav className="navbar bg-base-100 pl-4 py-2 min-h-min xl:pl-10 xl:py-0 xl:pr-4">
+        <div className="container px-4 lg:px-6 mx-auto">
+          <nav className="navbar bg-base-100 px-0 py-2 min-h-min lg:py-0">
             <div className="flex-1">
               <Link href="/">
                 <Image
@@ -111,7 +120,7 @@ const Header = ({ backgroundColor = "transparent" }) => {
 
               {/* Mobile Menu Button */}
               <button
-                className="btn btn-ghost lg:hidden"
+                className="btn btn-ghost -mr-4 lg:hidden"
                 onClick={() => setIsMenuOpen(true)}
               >
                 <svg
