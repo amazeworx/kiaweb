@@ -29,7 +29,7 @@ const menuItems = [
     link: "/affiliates",
     submenu: [
       {
-        title: "Logistics / Mining / Trading / Ports",
+        title: "Logistics / Ports / Mining / Trading Agriculture / Oil & Gas",
         link: "/affiliates/logistics",
       },
     ],

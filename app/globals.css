@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.splide__slide img {
-  @apply ml-auto;
+.splide {
+  @apply lg:h-full;
+  .splide__track {
+    @apply lg:h-full;
+  }
+  .splide__slide img {
+    @apply w-full h-full object-cover;
+  }
 }
 
 @keyframes slideIn {
