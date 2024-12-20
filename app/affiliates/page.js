@@ -1,16 +1,10 @@
 import Image from "next/image";
 import Header from "../../components/Header";
-import Slideshow from "../../components/Slideshow";
 
 export const metadata = {
   title: "Affiliates - KIA | PT Karunia Indo Alam",
   description: "",
 };
-
-const images = [
-  { src: "/images/logistics-01.jpg", alt: "Logistics 1" },
-  { src: "/images/logistics-02.jpg", alt: "Logistics 2" },
-];
 
 export default function AffiliatesPage() {
   return (
