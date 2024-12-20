@@ -35,7 +35,15 @@ export default function ContactPage() {
               </div>
               <div className="mb-4 lg:mb-8">
                 <h4>PHONE</h4>
-                <p>+62 21 5140 2322</p>
+                <p>
+                  <a
+                    href="tel:622151402322"
+                    target="_blank"
+                    className="text-white no-underline hover:underline"
+                  >
+                    +62 21 5140 2322
+                  </a>
+                </p>
               </div>
               <div className="mb-4 lg:mb-8">
                 <h4>EMAIL</h4>
