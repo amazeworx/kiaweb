@@ -12,6 +12,16 @@
   }
 }
 
+.swiper {
+  @apply lg:h-full;
+  .swiper-wrapper {
+    @apply lg:h-full;
+  }
+  .swiper-slide img {
+    @apply w-full h-full object-cover;
+  }
+}
+
 @keyframes slideIn {
   from {
     transform: translateX(100%);

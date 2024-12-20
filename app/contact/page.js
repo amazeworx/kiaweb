@@ -50,7 +50,7 @@ export default function ContactPage() {
             alt="About Us"
             width={1453}
             height={1134}
-            className="w-full lg:w-1/2 absolute left-0 bottom-0"
+            className="w-full"
           />
         </div>
       </div>
