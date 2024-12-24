@@ -35,14 +35,14 @@ export default function CorporateValuesPage() {
             <div className="w-full lg:w-1/2">
               <div className="p-4 pb-10 lg:p-6 xl:p-10 prose prose-lg prose-p:font-light lg:prose-xl xl:prose-2xl text-white prose-h4:text-white prose-h4:text-2xl prose-h4:mb-10">
                 <h4 className="font-bold">Mission</h4>
-                <p>To be the leader in various industries we operate in</p>
+                <p>To be the leader in various industries we operate in.</p>
                 <p>
                   Creating an integrated supply chain solution by incorporating
-                  efficient yet environmentally friendly investment
+                  efficient yet environmentally friendly investment.
                 </p>
                 <p>
                   And provide the best quality commodities with reliable
-                  logistics services
+                  logistics services.
                 </p>
               </div>
             </div>

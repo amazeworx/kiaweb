@@ -25,10 +25,10 @@ export default function AffiliatesPage() {
                 <div className="p-4 lg:p-10 relative">
                   <a href="/affiliates/logistics" className="block">
                     <Image
-                      src="/images/affiliates.jpg"
+                      src="/images/affiliates-2.jpg"
                       alt="Affiliates"
-                      width={1294}
-                      height={1280}
+                      width={950}
+                      height={800}
                       className="w-full h-full object-cover"
                     />
                   </a>

@@ -24,8 +24,7 @@ export default function Home() {
                 </h1>
                 <div className="pt-8">
                   <a
-                    href="tel:622151402322"
-                    target="_blank"
+                    href="/contact"
                     className="btn btn-lg btn-outline text-white rounded-full uppercase px-12"
                   >
                     Get In Touch

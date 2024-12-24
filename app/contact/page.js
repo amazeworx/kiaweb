@@ -47,7 +47,14 @@ export default function ContactPage() {
               </div>
               <div className="mb-4 lg:mb-8">
                 <h4>EMAIL</h4>
-                <p>inquiry@karuniaalam.com</p>
+                <p>
+                  <a
+                    href="mailto:inquiry@karuniaalam.com"
+                    className="text-white no-underline hover:underline"
+                  >
+                    inquiry@karuniaalam.com
+                  </a>
+                </p>
               </div>
             </div>
           </div>
